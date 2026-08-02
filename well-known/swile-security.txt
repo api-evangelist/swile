@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@swile.co
+Expires: 2031-06-01T12:00:00.000Z
+Acknowledgments: https://swile.co/security/hall-of-fame.txt
+Encryption: https://swile.co/security/gpg.key
+Policy: https://swile.co/security/disclosure-policy.txt
+Preferred-Languages: en, fr
+Hiring: https://www.welcometothejungle.com/en/companies/lunchr
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSoFYmizZAORIUmXniGA+pa+MwZ5wUCYlA1xwAKCRCGA+pa+MwZ
+5+F7AQDcx6qqeM7Xj35vw8yGQ/uzUIIjiP6X5HqNOhCIBd4jHQD/YLYK+httGSbp
+1YkGLeYhnxnpWIWF0BUuzjmmj/ChFQo=
+=P2HA
+-----END PGP SIGNATURE-----

@@ -1,8 +1,30 @@
 aid: swile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swile.png
 name: Swile
-description: 'Swile is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Swile is a French fintech that operates an all-in-one employee-benefits and
+  engagement super-app built around a single Mastercard smartcard and mobile
+  app. Founded in 2018 as Lunchr and rebranded Swile in 2020, it consolidates
+  meal vouchers (titres-restaurant), gift and culture vouchers, mobility and
+  work-from-home allowances, and team/recognition budgets that were historically
+  spread across paper vouchers and multiple providers. The company merged with
+  Bimpli in France, expanded into Brazil through Vee Benefícios, and is backed by
+  investors including Index Ventures, SoftBank Vision Fund, and Bpifrance. Swile
+  serves employers and their employees rather than external developers: as of
+  this enrichment pass it publishes a security surface (RFC 9116 security.txt, a
+  coordinated vulnerability disclosure policy, and a researcher hall of fame) but
+  no public developer portal, OpenAPI, or API reference.
 url: https://raw.githubusercontent.com/api-evangelist/swile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Employee Benefits
+- Meal Vouchers
+- Payments
+- Prepaid Cards
+- Employee Engagement
+- Human Resources
+- Mastercard
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.swile.co
+- type: GitHubOrganization
+  url: https://github.com/swile
+- type: SecurityTxt
+  url: well-known/swile-security.txt
+- type: WellKnown
+  url: well-known/swile-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/swile-vulnerability-disclosure.yml
+- type: Security
+  url: https://swile.co/security/disclosure-policy.txt
+- type: DomainSecurity
+  url: security/swile-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
